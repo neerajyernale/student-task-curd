@@ -171,7 +171,9 @@ function onStuUpdate() {
   let tr = document.getElementById(UPDATE_ID).children;
 
   tr[1].innerText = `${UPDATE_OBJ.fname} ${UPDATE_OBJ.lname}`;
-  tr[2].innerText = `${UPDATE_OBJ.email}`;
+  tr[2
+    
+  ].innerText = `${UPDATE_OBJ.email}`;
   tr[3].innerText = `${UPDATE_OBJ.contact}`;
 
   stuForm.reset();
